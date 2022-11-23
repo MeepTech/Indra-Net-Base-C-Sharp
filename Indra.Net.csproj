@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EFCore.NamingConventions" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.16" />
+    <PackageReference Include="YamlDotNet" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Data\" />
+    <Folder Include="Foci\Actors\Entities\Data\" />
+    <Folder Include="Foci\Places\Data\" />
+  </ItemGroup>
+
+</Project>
